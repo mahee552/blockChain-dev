@@ -1,0 +1,16 @@
+body
+{
+ background-color: blueviolet;
+}
+
+.form-group>div>div>.anim1
+{
+    position: relative;
+    animation: moveup 5s;
+}
+
+@keyframes moveup
+{
+    from{top:100px;}
+    to{top:0px;}
+}
