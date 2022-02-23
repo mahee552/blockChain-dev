@@ -3,7 +3,7 @@ body
  background-color: blueviolet;
 }
 
-.form-group>div>div>.anim1
+.anim1
 {
     position: relative;
     animation: moveup 5s;
