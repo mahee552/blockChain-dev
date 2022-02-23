@@ -1,7 +1,7 @@
  var contract;
             $(document).ready(function()
             {
-                web3=new Web3(window.web3.currentProvider.enable());    
+                web3=new Web3(web3.currentProvider);    
                 var address="0x902e6B2E2B0dc35673bA7f7D7DF922B946185445";
                 var abi=[
                     {
