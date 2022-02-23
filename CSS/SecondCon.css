@@ -17,10 +17,10 @@ body
 .anim2
 {
     position: relative;
-    animation: moveup 5s;
+    animation: movedown 5s;
 }
 
-@keyframes moveup
+@keyframes movedown
 {
     from{bottom:100px;}
     to{bottom:0px;}
